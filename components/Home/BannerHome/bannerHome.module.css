@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+.imgFondo{
+  background-image: url('/images/bannerHome.jpg');
+  background-size: cover;
+  background-position: center;
+  object-fit: fill;
+  width: 100wh;
+  height: 30vw;
+}
+.bannerHome{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(82, 41, 24, 0.174);
+}
+
+.bannerHomeText{
+  font-family: 'Sacramento', cursive;
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'PT Sans', sans-serif; */
+
+  font-size: 6vw;
+  color: white;
+  font-weight: 500;
+}
+
+@media(max-width: 768px) {
+  .imgFondo{
+    height: 40vw;
+  }
+}

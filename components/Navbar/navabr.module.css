@@ -1,0 +1,79 @@
+.sizeIcon {
+  font-size: 25px;
+}
+
+.dropdownColor {
+  color: rgb(208, 105, 61) !important;
+}
+.dropdownNickname {
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 4px;
+}
+.dropdownNickname:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+@media (max-width: 991px) {
+  .itemNavAlign {
+    text-align: start !important;
+  }
+  .btnHidden {
+    visibility: hidden;
+  }
+  .menuAlign {
+    text-align-last: left;
+  }
+  .iconHidden {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .prueba {
+    justify-items: first baseline;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdownAlign {
+    position: absolute !important;
+    left: -100% !important;
+  }
+}
+
+.productItems {
+  display: block;
+}
+.productItems .nav {
+  list-style: none;
+  padding: 10px 20px 10px 30px;
+  margin-right: 50px;
+  border: 1px solid rgba(182, 182, 182, 0.538);
+  max-width: 90%;
+}
+
+.nav li {
+  padding: 10px 15px;
+}
+.nav li:hover {
+  color: rgb(208, 105, 61) !important;
+  border: 1px solid rgb(208, 105, 61) !important;
+  border-radius: 3px;
+}
+.productItems .nav {
+  display: none;
+}
+.productItems:hover .nav {
+  display: block;
+}
+
+.productItemsPosition {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+}
+
+.productItemsPosition ul div input {
+  cursor: pointer;
+}

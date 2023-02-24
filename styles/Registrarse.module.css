@@ -1,0 +1,17 @@
+.paddingContainer{
+  padding-top: 160px;
+}
+.colContainer{
+  border: 1px solid rgb(169, 105, 45);
+}
+.titleContainer{
+  background-color: rgb(169, 105, 45);
+}
+.titleContainer h3{
+  color: white;
+}
+
+.mandatoryMsg {
+  font-size: small;
+}
+

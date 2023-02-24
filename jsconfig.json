@@ -1,0 +1,19 @@
+{
+  "target": "es6",
+  "compilerOptions": {
+    "baseUrl": ".",
+    // "paths": {
+    //   "components/*": ["./components/*"],
+    //   "utils/*": ["./utils/*"],
+    //   "hooks/*": ["./hooks/*"],
+    //   "reducers/*": ["./reducers/*"],
+    //   "sagas/*": ["./sagas/*"],
+    //   "assets/*": ["./assets/*"],
+    //   "store/*": ["./store/*"],
+    //   "containers/*": ["./containers/*"]
+    // }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

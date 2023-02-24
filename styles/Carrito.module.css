@@ -1,0 +1,8 @@
+.paddingContainer {
+  padding-top: 120px;
+}
+@media (max-width: 991px) {
+  .marginContainer{
+    margin-bottom: 30px;
+  }
+}

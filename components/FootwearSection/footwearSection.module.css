@@ -1,0 +1,29 @@
+.imgFondo{
+  background-image: url('/images/bannerHome.jpg');
+  background-size: cover;
+  background-position: center;
+  object-fit: fill;
+  width: 100wh;
+  height: 30vw;
+}
+
+.backdropNew{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(82, 41, 24, 0.174);
+  filter: saturate(3);
+
+}
+.title{
+  font-family: "Cinzel", serif;
+  font-size: 6vw;
+  color: white;
+  font-weight: 500;
+}
+
+@media(max-width: 768px) {
+  .imgFondo{
+    height: 40vw;
+  }
+}

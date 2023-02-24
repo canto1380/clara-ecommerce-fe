@@ -1,0 +1,63 @@
+.sizeModal {
+  height: 70% !important;
+}
+
+.modalPreview {
+  position: fixed;
+}
+
+.textDecoration {
+  text-decoration: line-through;
+  color: rgb(150, 150, 150);
+}
+
+.btnColor:hover {
+  filter:saturate(2) !important;
+}
+.selectColor {
+  border-radius: 0px;
+  border: 5px double !important;
+  width: 10px !important;
+  height: 30px !important;
+}
+
+.btnSizes:hover {
+  background-color: #8e8c84 !important;
+  color: white !important;
+}
+.btnAdd {
+  border: 1px solid rgb(175, 86, 42);
+  background-color: white;
+  color: rgb(175, 86, 42);
+  font-weight: 500;
+}
+.btnAdd:hover {
+  background-color: rgb(175, 86, 42);
+}
+
+.containerImg{
+  width: 100wh;
+  height: 37vw;
+}
+.imgCarousel {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  object-fit:fill;
+}
+.imgMinContainer {
+  width: 100px !important;
+}
+.imgMinCarousel{
+  height: 80px;
+  width: 80px;
+}
+/* .imgCarousel:hover{
+  transform: scale(1.5);
+} */
+
+.carouselIndicators {
+  background-color: rgba(159, 101, 101, 0.257) !important;
+  height: 100px !important;
+}

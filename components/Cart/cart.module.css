@@ -1,0 +1,112 @@
+.dropdownAlignCart {
+  width: 420px;
+  border-radius: 0px;
+}
+
+.containerImgCart {
+  width: 8vh;
+  height: 7vw;
+  padding: 12px;
+  border: 1px solid rgb(182, 174, 174);
+}
+.imgCarousel {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  object-fit: fill;
+}
+.dropdownAlignCart p {
+  font-size: 13px;
+}
+
+.dropdownAlignCart span {
+  font-size: 13px;
+}
+.sizeIcon {
+  font-size: 20px;
+}
+
+.containerImgItemCart {
+  width: 8vh;
+  height: 7vw;
+  padding: 12px;
+}
+.itemsCartLI {
+  list-style-type: none;
+}
+
+.itemsCartLI p {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.itemsCartLI span {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.titleText {
+  border-bottom: 1px solid #dfd7da;
+}
+.btnNavegar {
+  color: white;
+  font-weight: 700;
+  background-color: rgb(208, 105, 61);
+  border: 0px;
+}
+.btnNavegar:hover {
+  background-color: rgb(247, 74, 0);
+}
+.resume {
+  margin-top: 15px;
+}
+.resume p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.resumeTotal {
+  margin-top: 20px;
+}
+.resumeTotal p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.btnCupon {
+  color: white;
+  font-weight: 500;
+  background-color: rgb(208, 105, 61);
+  border: 0px;
+}
+.btnCupon:hover {
+  background-color: rgb(247, 74, 0);
+}
+.btnFinalizar {
+  color: rgb(208, 105, 61);
+  background-color: white;
+  border: 1px solid rgb(208, 105, 61);
+  font-weight: 500;
+}
+.btnFinalizar:hover {
+  color: white;
+  background-color: rgb(208, 105, 61);
+  border: 0px;
+}
+
+@media (max-width: 991px) {
+  .dropdownAlignCart {
+    width: 100%;
+  }
+  .marginContainer {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdownAlignCart {
+    position: absolute !important;
+    left: -400% !important;
+  }
+}

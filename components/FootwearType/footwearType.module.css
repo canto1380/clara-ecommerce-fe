@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+
+.imgFondo{
+  /* background-image: url('/images/bannerHome.jpg'); */
+  background-size: cover;
+  background-position: center;
+  object-fit: fill;
+  width: 100wh;
+  height: 30vw;
+}
+
+.backdropNew{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(82, 41, 24, 0.174);
+  filter: saturate(3);
+
+}
+.title{
+  font-family: "Cinzel", serif;
+  font-size: 6vw;
+  color: white;
+  font-weight: 500;
+}
+
+@media(max-width: 768px) {
+  .imgFondo{
+    height: 40vw;
+  }
+}
+
+
+
+.flexFilterLabel {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filterLabel {
+  max-width: fit-content;
+  border-radius: 2px;
+  border: 1px solid rgb(198, 190, 190);
+}
+.filterLabelText {
+  color: rgb(69, 67, 67);
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.filterLabelBtn {
+  border: 0px !important;
+  padding: 0px 6px;
+  font-size: 10px;
+}
+.filterLabelBtn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid rgb(122, 122, 122);
+}
+
+.titleFilter {
+  font-size: 20px;
+  font-weight: 500;
+}
+.titleFilter1 {
+  align-self: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+.titleFilterOptions {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.msgNew {
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  z-index: 1000;
+}
+
+.navbarSecondary {
+  padding: 0px;
+  position: static;
+}
+.textPrincipal {
+  color: black;
+  padding-left: 0px;
+}
+
+.textPrincipal:hover {
+  color: rgb(208, 105, 61) !important;
+}
+
+.productItems {
+  display: block;
+}
+.productItems .nav {
+  list-style: none;
+  padding: 10px 20px 10px 30px;
+  margin-right: 50px;
+  border: 1px solid rgba(182, 182, 182, 0.538);
+  max-width: 90%;
+}
+
+.nav li {
+  padding: 10px 15px;
+}
+.nav li:hover {
+  color: rgb(208, 105, 61) !important;
+  border: 1px solid rgb(208, 105, 61) !important;
+  border-radius: 3px;
+}
+.productItems .nav {
+  display: none;
+}
+.productItems:hover .nav {
+  display: block;
+}
+
+.productItemsPosition {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+}
+
+.productItemsPosition ul div input {
+  cursor: pointer;
+}

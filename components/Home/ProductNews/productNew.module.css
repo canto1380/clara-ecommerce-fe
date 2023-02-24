@@ -1,0 +1,9 @@
+.btnVerMas {
+  color: white;
+  font-weight: 700;
+  background-color: rgb(208, 105, 61);
+}
+.btnVerMas:hover{
+  background-color: rgb(247, 74, 0);
+  color: white;
+}

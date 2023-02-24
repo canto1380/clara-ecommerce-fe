@@ -1,0 +1,22 @@
+.formContainer {
+  top: 5%;
+  position: absolute;
+  visibility: hidden;
+}
+
+.listContainer {
+  position: absolute;
+  visibility: hidden;
+}
+.sizeIcon {
+  font-size: 25px;
+}
+.itemsButton {
+  background-color: white;
+  border: 0px
+}
+.alertError {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}

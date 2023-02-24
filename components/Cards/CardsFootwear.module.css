@@ -1,0 +1,88 @@
+.containerCard {
+  padding: 5px 5px;
+}
+.textDecoration {
+  text-decoration: line-through;
+  color: rgb(150, 150, 150);
+}
+.msgStock {
+  color: rgb(150, 150, 150);
+}
+.cardBody {
+  border: 0px;
+  cursor: context-menu;
+}
+.cardBody:hover {
+  border: 1px solid black;
+}
+.cardBody:hover .containerHoverImg {
+  display: flex !important;
+}
+.imgStyle:hover {
+  filter: opacity(92%);
+}
+.msgDiscount {
+  position: absolute;
+  top: 3%;
+  right: 7%;
+  z-index: 1000;
+}
+.msgNew {
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  z-index: 1000;
+}
+.containerHoverImg {
+  position: absolute;
+  width: 100%;
+  bottom: 38%;
+  background-color: rgba(144, 144, 144, 0.521);
+  color: white;
+  font-weight: 500;
+}
+.containerHoverImg {
+  display: none !important;
+}
+.textHoverImg {
+  border-right: 2.5px solid white;
+  border-radius: 3px;
+}
+.textHoverImg:hover {
+  background-color: rgba(144, 144, 144, 0.713);
+}
+.btnAddFav:hover {
+  background-color: transparent;
+  color: white;
+}
+.iconHoverImg:hover {
+  background-color: rgba(144, 144, 144, 0.713);
+}
+.textCard:hover {
+  color: rgb(208, 105, 61) !important;
+}
+
+.btnColorSizes {
+  border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+  .containerHoverImg {
+    bottom: 35%;
+  }
+}
+@media (max-width: 1199px) {
+  .containerHoverImg {
+    bottom: 33%;
+  }
+}
+@media (max-width: 991px) {
+  .containerHoverImg {
+    bottom: 30%;
+  }
+}
+@media (max-width: 767px) {
+  .containerHoverImg {
+    bottom: 25%;
+  }
+}
